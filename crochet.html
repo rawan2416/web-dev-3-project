@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Yarn</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+     <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cozy Yarn
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="crochet.html">Crochet</a></li>
+                <li><a class="dropdown-item" href="embroidery.html">Embroidery</a></li>
+                <li><a class="dropdown-item" href="knitting.html">Knitting</a></li>
+                <li><a class="dropdown-item" href="tools.html">Tools</a></li>
+              </ul>
+            </li>
+        </ul>
+        <button onclick="toggleTheme()" class="buttons">Toggle Cozy Mode 🌙</button>
+      </div>
+     </div>
+    </nav>
+  </section>
+  <section class="container">
+    <h1>Crochet</h1>
+    <p class="page-text>">
+        Crochet is a craft where yarn is turned into beutiful items using a hook
+    </p>
+  </section>
+  <br>
+  <br>
+  <br>
+  <section class="container">
+    <div class="card" style="width: 18rem;">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.6p378VYyqLGRXsE-7y5iDgHaJ4?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text"> 🧣Scarves</p> 
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="https://amigurumi.today/wp-content/uploads/2016/09/Amigurumi-animals-Free-crochet-patterns-by-Amigurumi-Today.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text"> 🧸Amigurumi</p> 
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.hPedMxvXi8zHwaDUG0EPewHaKX?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text"> 🧤Blankets</p> 
+        </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <section class="container">
+    <h2>Projects Completed</h2>
+    <p id="count">0</p>
+    <button onclick="addProject()">Add Project</button>
+  </section>
+  <br>
+  <br>
+  <br>
+  <section class="container">
+    <h2>Where to learn Crochet on youtube?</h2>
+    <div class="card" style="width: 18rem;">
+        <img src="Sigoni Macaroni.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">www.youtube.com/@SigoniMacaroni</p> 
+        </div>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MqZ3jCHadcs?si=Vc62R9A8R-RKz8xz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

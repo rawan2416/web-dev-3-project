@@ -1,0 +1,153 @@
+.navbar{
+    background-color: #d8b5a1;
+}
+body{
+    background-color: #fdf6f0;
+    font-family: sans-serif;
+    color: #4a3f35;
+    transition: 0.3s;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+.hero{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fdf6f0;
+}
+.about{
+    text-align: center;
+    padding: 40px;
+    background-color: #fdf6f0;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+.feature-card{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 150px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dark-mode{
+    background-color: #2f2a26;
+    color: #f5eee8;
+}
+.dark-mode .footer{
+    background-color: #2f2a26;
+    color: #f5eee8;
+}
+.dark-mode .feature-card{
+    background-color: #3d362f;
+}
+button{
+    border-radius: 10px;
+    border-style:outset;
+    border-color: #2f2a26;
+    border-width: 2px;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+    background-color: #fdf6f0;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+img{
+    height: 150px;
+    width: 75px;
+}
+.tools{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#search{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.filters{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.filters button{
+    margin: 5px;
+    padding: 8px 15px;
+    border: none;
+    background: #c89b7b;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#toolsContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(220px, 1fr));
+    gap:15px;
+}
+.tool-card{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.tool-card:hover{
+    transform: scale(1.05);
+}
+.hidden{
+    display: none;
+}
+.hide{
+    display: none;
+}
+#modal{
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-content{
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+#closeModal{
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+}
